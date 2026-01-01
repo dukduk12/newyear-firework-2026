@@ -6,7 +6,7 @@ A professional web-based interactive New Year greeting card project. This applic
 
 ## 📺 Demo
 
-![Project Demo](docs/demo.mp4)
+![Project Demo](docs/demo.gif)
 
 > **Note**: The card features smooth pastel-toned fireworks and dynamic text updates that respond instantly to user input.
 
