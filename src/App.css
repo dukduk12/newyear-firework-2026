@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
+
+body {
+  margin: 0;
+  background: black;
+  font-family: sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.card {
+  position: relative;
+  width: 90vw;
+  height: 90vh;
+  max-width: 420px;
+  max-height: 700px;
+  background: radial-gradient(circle, #2a0505 0%, #000 70%);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.firework-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.content-layer {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+  pointer-events: none;
+}
+
+.year {
+  font-size: 3rem;
+  text-shadow: 0 0 15px #fff, 0 0 30px #d4af37;
+}
+
+.title {
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #8b0000;
+}
+
+.hanja-row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.neon-hanja {
+  font-family: "Nanum Brush Script", cursive;
+  font-size: 4rem;
+  color: white;
+  text-shadow:
+    0 0 10px white,
+    0 0 25px #8b0000,
+    0 0 40px #d4af37;
+}
+
+.user-message {
+  margin-top: 30px;
+  color: #ffd700;
+  text-shadow: 0 0 8px #8b0000;
+  white-space: pre-wrap;  
+  word-break: break-word;
+}
+
+.msg-input {
+  width: 90vw;
+  max-width: 420px;
+  padding: 10px;
+  background: #111;
+  border: 1px solid #8b0000;
+  color: white;
+}
+
+.gold-btn {
+  padding: 10px 18px;
+  background: #000000;
+  color: #ffd700;
+  border: 2px solid #fffce9;
+  cursor: pointer;
+}
